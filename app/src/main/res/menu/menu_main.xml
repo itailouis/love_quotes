@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="talitha_koum.milipade.com.app.wishy.MainActivity">
+    <item android:id="@+id/action_custom_indicator"
+        android:title="More"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_github"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="About"
+        >
+    </item>
+</menu>
